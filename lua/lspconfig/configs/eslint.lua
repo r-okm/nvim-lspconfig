@@ -167,6 +167,12 @@ return {
       end,
       description = 'Fix all eslint problems for this buffer',
     },
+    EslintFixAllAsync = {
+      function()
+        fix_all { sync = false, bufnr = 0 }
+      end,
+      description = 'Fix all eslint problems for this buffer',
+    },
   },
   docs = {
     description = [[
